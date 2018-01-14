@@ -1,0 +1,11 @@
+.package {
+	type 0 : integer
+	session 1 : integer
+}
+
+heartbeat 1 {
+    request {
+        reserve 0 : integer
+    }
+}
+
